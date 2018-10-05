@@ -1,3 +1,6 @@
 node_modules
 *.log
 reports
+screens
+videos
+.idea
