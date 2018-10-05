@@ -42,16 +42,6 @@ module.exports = {
       this.api.pause(1000);
       return this;
     },
-    searchByAreaName(suburbName) {
-      this.searchByName(suburbName, 'Area');
-      this.api.pause(1000);
-      return this;
-    },
-    searchByRegionName(suburbName) {
-      this.searchByName(suburbName, 'Region');
-      this.api.pause(1000);
-      return this;
-    },
     searchText(text) {
       this.waitForElementVisible('@selectInput', 3000)
         .setValue('@selectInput', text)
